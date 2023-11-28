@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=poppnis:wght@400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'poppnis',sans-serif;
+}
+body{
+    background: #1abc9c;
+    overflow: hidden;
+}
+.container{
+    max-width: 500px;
+    padding: 0 20px;
+    margin: 100px auto;
+}
+.wrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+}
+.wrapper .title{
+    line-height: 90px;
+    background: #16a085;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.wrapper form{
+    padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+    height: 50px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+
